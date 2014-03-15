@@ -21,4 +21,4 @@ requires: {}
 resources:
   bugtracker: https://github.com/timbunce/Data-Tumbler/issues
   homepage: https://metacpan.org/release/Data-Tumbler
-version: 0.001
+version: 0.002
