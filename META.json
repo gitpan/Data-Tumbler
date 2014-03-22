@@ -1,5 +1,5 @@
 {
-   "abstract" : "Dynamic generation of nested combinations",
+   "abstract" : "Dynamic generation of nested combinations of variants",
    "author" : [
       "Tim Bunce"
    ],
@@ -43,5 +43,5 @@
       },
       "homepage" : "https://metacpan.org/release/Data-Tumbler"
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }

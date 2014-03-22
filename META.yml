@@ -1,5 +1,5 @@
 ---
-abstract: 'Dynamic generation of nested combinations'
+abstract: 'Dynamic generation of nested combinations of variants'
 author:
   - 'Tim Bunce'
 build_requires:
@@ -23,4 +23,4 @@ requires: {}
 resources:
   bugtracker: https://github.com/timbunce/Data-Tumbler/issues
   homepage: https://metacpan.org/release/Data-Tumbler
-version: 0.003
+version: 0.004
