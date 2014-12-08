@@ -4,7 +4,7 @@
       "Tim Bunce"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -21,27 +21,56 @@
    },
    "prereqs" : {
       "build" : {
-         "requires" : {
-            "Storable" : "0",
-            "Test::More" : "0.88",
-            "Test::Most" : "0.33"
-         }
+         "requires" : {}
       },
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "0"
          }
       },
+      "develop" : {
+         "requires" : {
+            "Module::CPANTS::Analyse" : "0.96",
+            "Test::CPAN::Changes" : "0",
+            "Test::CheckManifest" : "0",
+            "Test::Kwalitee" : "0",
+            "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "0",
+            "Test::Pod::Spelling::CommonMistakes" : "0",
+            "Test::Spelling" : "0"
+         }
+      },
       "runtime" : {
-         "requires" : {}
+         "recommends" : {
+            "File::HomeDir" : "0.50",
+            "List::MoreUtils" : "0.22"
+         },
+         "requires" : {
+            "Storable" : "0",
+            "perl" : "v5.8.1"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88",
+            "Test::Most" : "0.33"
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/timbunce/Data-Tumbler/issues"
+         "mailto" : "data-tumbler@rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Tumbler"
       },
-      "homepage" : "https://metacpan.org/release/Data-Tumbler"
+      "homepage" : "https://metacpan.org/release/Data-Tumbler",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "web" : "https://github.com/perl5-utils/Data-Tumbler"
+      }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }

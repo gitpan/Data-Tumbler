@@ -3,24 +3,30 @@ abstract: 'Dynamic generation of nested combinations of variants'
 author:
   - 'Tim Bunce'
 build_requires:
-  Storable: 0
-  Test::More: 0.88
-  Test::Most: 0.33
+  Test::More: '0.88'
+  Test::Most: '0.33'
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830'
+generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Data-Tumbler
 no_index:
   directory:
     - t
     - inc
-requires: {}
+recommends:
+  File::HomeDir: '0.50'
+  List::MoreUtils: '0.22'
+requires:
+  Storable: '0'
+  perl: v5.8.1
 resources:
-  bugtracker: https://github.com/timbunce/Data-Tumbler/issues
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Tumbler
   homepage: https://metacpan.org/release/Data-Tumbler
-version: 0.005
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/perl5-utils/Data-Tumbler
+version: '0.006'
